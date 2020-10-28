@@ -70,3 +70,8 @@
             color: black
            
         }
+
+        *:not(.btn-danger){
+          background: #24292e!important;
+          color: white!important;
+      }

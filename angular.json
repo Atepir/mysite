@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "personal-portfoli-angular"
+    }
+  },
+  "defaultProject": "personal-portfoli-angular",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -150,3 +150,8 @@
       .timeline-label ul{
         font-size: 1.3em;font-weight:500; font-family: "Quicksand", Arial, sans-serif;
       }
+
+      *:not(.timeline-icon){
+        background: #24292e!important;
+        color: white!important;
+    }

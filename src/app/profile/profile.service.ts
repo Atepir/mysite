@@ -22,7 +22,7 @@ export class ProfileService {
     {
       'id': '2',
       'skill': 'PHP\/CODEIGNITER',
-      'progress': '80%'
+      'progress': '100%'
     },
     {
       'id': '3',
