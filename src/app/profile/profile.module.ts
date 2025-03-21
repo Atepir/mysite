@@ -11,6 +11,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
 import { ProjectsComponent } from './projects/projects.component';
+import { ProjectCardComponent } from './projects/project-card/project-card.component';
 
 @NgModule({
   imports: [
@@ -27,7 +28,8 @@ import { ProjectsComponent } from './projects/projects.component';
     SkillsComponent,
     ExperienceComponent,
     EducationComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ProjectCardComponent
   ],
   providers: [
     { provide: 'SnotifyToastConfig', useValue: ToastDefaults},

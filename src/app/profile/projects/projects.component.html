@@ -1,90 +1,83 @@
 <div class="section" id="projects">
-    <div class="container cc-education">
-        <div class="h4 text-center mb-4 title">Projets</div>
-            
-     <div class="row">
-    
-    
-       <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-        <div class="blog-entry">
-      <div class="card" >
-        <img class="card-img-top" src="assets/images/p11.png" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">
-            DontStealMyCode-DSMC-console-web-code-encrypter </h4>
-          <h5 class="card-text"><b>Technologies :</b> Python, Flask, Bash, Heroku, Html, Javascript, Css</h5>
-          <a href="https://github.com/Atepir/DontStealMyCode-DSMC-console-web-code-encrypter" class="btn btn-danger stretched-link">Voir sur Github</a>
-        
-        </div>
-      </div>
-    </div>
-    </div>
-    
-    <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-        <div class="blog-entry">
-       <div class="card" >
-        <img class="card-img-top"src="assets/images/p2.jpg" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">Near Orbital Guard</h4>
-           <h5 class="card-text"><b>Technologies :</b> Java, JavaFX</h5>
-          <a href="https://github.com/Atepir/Near-Orbital-Guard" class="btn btn-danger stretched-link">Voir sur Github</a>
-        </div>
-    </div>
-    </div>
-  </div>
-          
-      <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-        <div class="blog-entry">
-       <div class="card" >
-        <img class="card-img-top" src="assets/images/p3.jpg" alt="Card image" style="width:100%">
-        <div class="card-body">
-         <h4 class="card-title">Adduction en Eau Potable</h4>
-           <h5 class="card-text"><b>Technologies :</b> Python, SQLite3 </h5>
-          <a href="https://github.com/Atepir/AEP" class="btn btn-danger stretched-link">Voir sur Github</a>
-        </div>
-    </div>
-    </div>
-      </div>
-    
-      <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-        <div class="blog-entry">
-      <div class="card" >
-        <img class="card-img-top" src="assets/images/p44.png" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">AsciimojisFor0ad</h4>
-          <h5 class="card-text"><b>Technologies :</b> Javascript, Makefile</h5>
-          <a href="https://github.com/Atepir/AsciimojisFor0ad" class="btn btn-danger stretched-link">Voir sur Github</a>
-        </div>
-      </div>
-    </div>
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Latest Projects</div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem;">
+
+      <app-project-card
+        image="assets/images/tikedeni.png"
+        name="Tikedeni"
+        techs="Nestjs, React, AWS"
+        [links]="[{url: 'https://partenaire.tikedeni.com', text: 'Visit Organizer site'}, {url: 'https://tikedeni.com', text: 'Visit User site'}]"
+        description="Tikedeni is a platform that allows users to find and book events in their city.">
+      </app-project-card>
+
+      <app-project-card
+        image="assets/images/soucheit.png"
+        name="Souche IT"
+        techs="Angular, AWS"
+        [links]="[{url: 'https://soucheit.com', text: 'Visit'}]"
+        description="Developer collective that build web applications for companies.">
+      </app-project-card>
+
+      <app-project-card
+        image="assets/images/compose_my_meal.png"
+        name="Compose My Meal"
+        techs="Android Studio, Jetpack Compose"
+        [links]="[{url: 'https://github.com/Atepir/Compose-My-Meal', text: 'See on Github'}]"
+        description="Android recipes app that allows users to find recipes based on the ingredients they have.">
+      </app-project-card>
     </div>
 
-    <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-        <div class="blog-entry">
-       <div class="card" >
-        <img class="card-img-top" src="assets/images/p5.png" alt="Card image" style="width:100%">
-        <div class="card-body">
-          <h4 class="card-title">Plague py.</h4>
-           <h5 class="card-text"><b>Technologies :</b> Python</h5>
-          <a href="https://github.com/Atepir/plague.py" class="btn btn-danger stretched-link">Voir sur Github</a>
-        </div>
-        </div>
-        </div>
-      </div>
-    
-      <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-        <div class="blog-entry">
-           <div class="card" >
-        <img class="card-img-top" src="assets/images/p6.jpg" alt="Card image" style="width:100%">
-        <div class="card-body">
-         <h4 class="card-title">ClicMaster</h4>
-           <h5 class="card-text"><b>Technologies :</b> PhP, Html, Javascript, Css</h5>
-          <a href="https://github.com/Atepir/clicmaster" class="btn btn-danger stretched-link">Voir sur Github</a>
-        </div>
-        </div>
-        </div>
-        </div>
-    
-    </div>
+    <div class="h4 text-center mb-4 title">Older Projects (and probably not worth it)</div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem;">
+
+      <app-project-card
+        image="assets/images/bricks_breaker.png"
+        name="Bricks Breaker Remake"
+        techs="C, C++, SDL"
+        [links]="[{url: 'https://github.com/Atepir/Bricks-Breaker-Remake', text: 'See on Github'}]"
+        description="A remake of the famous game Bricks Breaker.">
+      </app-project-card>
+
+      <app-project-card
+        image="assets/images/ludo.jpg"
+        name="Ludo"
+        techs="C#, Unity"
+        description="A remake of the famous game Ludo.">
+      </app-project-card>
+
+      <app-project-card
+        image="assets/images/dsmc.png"
+        name="DSMC"
+        techs="Python, Bash, Html, Javascript"
+        [links]="[{url: 'https://github.com/Atepir/DontStealMyCode-DSMC-console-web-code-encrypter', text: 'See on Github'}]"
+        description="A console and web code encrypter and decrypter.">
+      </app-project-card>
+
+
+      <!-- <app-project-card
+        image="assets/images/aep.jpg"
+        name="Water needs calculations - Project done for my ingenieur brother"
+        techs="Python, SQLite3"
+        [links]="[{url: 'https://github.com/Atepir/AEP', text: 'See on Github'}]">
+      </app-project-card>
+
+      <app-project-card
+        image="assets/images/asciimojis.png"
+        name="AsciimojisFor0ad - A small mod for a game I like"
+        techs="Javascript, Makefile"
+        [links]="[{url: 'https://github.com/Atepir/AsciimojisFor0ad', text: 'See on Github'}]">
+      </app-project-card>
+
+      <app-project-card
+        image="assets/images/plague.png"
+        name="Plague py. - One of my first projects ever"
+        techs="Python"
+        [links]="[{url: 'https://github.com/Atepir/plague.py', text: 'See on Github'}]">
+      </app-project-card> -->
+
     </div>
   </div>
+</div>
