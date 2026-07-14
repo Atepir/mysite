@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "nongmasorgho",
     "public": "dist/",
     "ignore": [
       "firebase.json",
